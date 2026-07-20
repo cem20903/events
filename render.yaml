@@ -14,7 +14,8 @@ services:
         sync: false
 
   - name: misevents-client
-    type: static
+    type: web
+    env: static
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
