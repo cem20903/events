@@ -17,7 +17,6 @@ services:
     type: web
     runtime: static
     plan: free
-    region: frankfurt
     rootDir: client
     buildCommand: npm install && npm run build
     staticPublishPath: dist
